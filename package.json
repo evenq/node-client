@@ -1,5 +1,5 @@
 {
-  "name": "evenq",
+  "name": "@evenq/node-client",
   "version": "1.0.0",
   "description": "Official node client for the Evenq API",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evenq/evenq-node.git"
+    "url": "https://github.com/evenq/node-client.git"
   },
   "keywords": [
     "evenq",
