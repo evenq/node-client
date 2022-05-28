@@ -1,0 +1,38 @@
+{
+  "name": "evenq",
+  "version": "1.0.0",
+  "description": "Official node client for the Evenq API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evenq/evenq-node.git"
+  },
+  "keywords": [
+    "evenq",
+    "analytics"
+  ],
+  "author": "Atomical Creative Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evenq/evenq-node/issues"
+  },
+  "homepage": "https://github.com/evenq/evenq-node#readme",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "bottleneck": "^2.19.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "semi": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "printWidth": 100
+  }
+}
