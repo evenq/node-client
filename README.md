@@ -16,7 +16,7 @@ You can specify a batch size between 10 and 900 and a flush interval between 1-6
 import Evenq from 'evenq';
 
 const evenq = new Evenq({
-    apiKey: "Gwuz9wAYZ_kadNYpTvV91UZoRTWJ5Pqc",
+    apiKey: "YOUR_API_KEY",
     maxBatchTime: 60, // max and default set to 60 seconds
     maxBatchSize: 1000 // max and default set to 1000 events per batch
 });
