@@ -1,7 +1,7 @@
 const { Batcher } = require('bottleneck/es5')
 const https = require('https')
 
-const ingestURL = 'https://in.evenq.io/v1/events'
+const ingestURL = 'https://api.evenq.io/v1/events'
 
 const cleanSettings = ({ maxBatchTime, maxBatchSize }) => {
   if (maxBatchSize < 10) {
